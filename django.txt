@@ -1,0 +1,18 @@
+Learning django for beginners- building a blog in 2025
+Venv3.1.5\Scripts\activate  | psw = 0000 | us_name = likana84
+install and setup a django project
+create app for the blog
+setup tailwind
+database models for the post
+outline the posts
+Detailed page for posts
+make it possible to add command to posts
+create a cloud account
+create a server 
+install a software
+create environment
+move files from local to server
+Gunicon
+superviser
+Agenix
+
