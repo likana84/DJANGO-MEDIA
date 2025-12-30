@@ -1,8 +1,13 @@
-{% extends 'blog/base.html' %}%}
+{% extends 'blog/base.html' %}
 
 {%block title %}Welcome to my blog{% endblock %}
 
 {% block content %}
    
-JESUS CHRIST, our lord and savior, in him, we have hope of internal life.
+
+{% for post in posts %}
+    <h2 class="text-xl">{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+    <hr>
+    {% endfor %}
  {% endblock %}
