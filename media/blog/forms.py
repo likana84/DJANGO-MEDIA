@@ -12,8 +12,8 @@ class CommentForm(ModelForm):
         model = Comment
         fields = ['name', 'content']
         widgets = {
-            'name': forms.TextInput(attrs={'style': 'border:none;background-color:transparent;', 'placeholder': 'Your name'}),
-            'content': forms.Textarea(attrs={'style': 'border:none;background-color:pink;', 'rows': 4, 'placeholder': 'Your comment'})
+            'name': forms.TextInput(attrs={'style': 'border:none;background-color:pink;width:255px;'}),
+            'content': forms.Textarea(attrs={'style': 'border:none;background-color:pink;rows:4;cols:8;display:block;margin-bottom:10px;'}),
         }
   #class Meta:
         #model = Comment

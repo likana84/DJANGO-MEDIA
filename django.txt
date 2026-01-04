@@ -16,3 +16,22 @@ Gunicon
 superviser
 Agenix
 
+css   tailwind
+block  w-full
+margin py/px 
+backgroundc bg-grey-100
+text  text-xl
+font  font-bold
+flex  flex
+justify  justify-center
+items  items-center
+hover  hover:bg-grey-200
+border  border border-grey-200
+rounded  rounded-full
+shadow  shadow-lg
+transition  transition-colors
+duration  duration-200
+focus  focus:outline-none
+grid  grid
+gap  gap-4
+col-span  col-span-2

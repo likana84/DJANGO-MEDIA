@@ -16,6 +16,15 @@
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="py-4 px-8 bg-blue-700 text-white rounded">Submit</button>
+    <hr>
+
+    {% for comment in post.comments.all %}
+        <div class="py-4 px-6 bg-gray-100 rounded mb-4">
+            <p>{{ comment.content }}</p>
+            <span class="text-sm text-gray-500">{{comment.name}}@{{ comment.created_at }}</span>
+        </div>
+     {% endfor %}
+    
     </form>
 </div>
 
